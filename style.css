@@ -21,7 +21,7 @@ body {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: #003366;
     font-family: 'Pacifico', cursive;
@@ -37,7 +37,7 @@ body {
 
 /* ✅ "DEEP DIVE" 서브타이틀 스타일 */
 .subtitle {
-    font-size: 22px; /* 5px 작게 설정 */
+    font-size: 20px; /* 5px 작게 설정 */
     font-weight: bold;
     color: #02366d; /* 메인 타이틀 색상과 동일 */
     text-shadow: inherit; /* 동일한 그림자 효과 */
