@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- ✅ 타이틀을 클릭하면 index.html로 이동 -->
+    <header class="header" onclick="goHome()">TWO TO TWO</header>
+
     <div class="container">
-        <h2>환영합니다! 🎉</h2>
-        <p>올바른 핀 번호를 입력하셨습니다.</p>
+        <h2>🎉 핀 인증 성공!</h2>
+        <p>당신의 방 번호는 <strong id="roomNumber"></strong> 입니다.</p>
     </div>
+
+    <script src="script.js"></script> <!-- ✅ script.js 추가 -->
+    <script>
+        // URL에서 방 번호 가져와서 표시
+        const params = new URLSearchParams(window.location.search);
+        const roomNumber = params.get("room");
+
+        if (roomNumber) {
+            document.getElementById("roomNumber").innerText = roomNumber;
+        } else {
+            document.getElementById("roomNumber").innerText = "알 수 없음";
+        }
+    </script>
 </body>
 </html>
