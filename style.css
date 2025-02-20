@@ -52,6 +52,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 90%;
     max-width: 400px;
+    margin-top: 200px auto;
 }
 
 /* 입력 필드 스타일 */
@@ -88,4 +89,11 @@ button:hover {
     color: #ff4c4c;
     font-size: 14px;
     margin-top: 10px;
+}
+
+.diver-image {
+    display: block;
+    width: 200px; /* 원하는 크기로 조정 가능 */
+    /* margin: 30px auto 0; 상단 여백을 충분히 줘서 컨테이너와 분리 */
+    opacity: 0.6;
 }

@@ -14,23 +14,25 @@
         <div class="subtitle">TWO TO TWO</div>
     </header>
     
-
     <div class="container">
-        <h2>🎉 핀 인증 성공!</h2>
+        <h2>🎉 고객님 물 온도 어떠세요? 🎉</h2>
         <p>당신의 방 번호는 <strong id="roomNumber"></strong> 입니다.</p>
     </div>
-
+    
+<!-- ✅ 추가: 다이버 이미지 -->
+<img src="잠수부사진.png" alt="Diver Image" class="diver-image">
+    
     <script src="script.js"></script> <!-- ✅ script.js 추가 -->
     <script>
         // URL에서 방 번호 가져와서 표시
         const params = new URLSearchParams(window.location.search);
         const roomNumber = params.get("room");
-
+        
         if (roomNumber) {
             document.getElementById("roomNumber").innerText = roomNumber;
         } else {
             document.getElementById("roomNumber").innerText = "알 수 없음";
         }
-    </script>
+        </script>
 </body>
 </html>
