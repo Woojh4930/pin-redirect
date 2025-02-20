@@ -52,6 +52,17 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 90%;
     max-width: 400px;
+    margin-top: 200px ;
+}
+
+/* 컨테이너 스타일 */
+.container1 {
+    background: rgba(255, 255, 255, 0.2); /* 반투명한 느낌 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
     margin-top: 200px auto;
 }
 
@@ -96,4 +107,6 @@ button:hover {
     width: 200px; /* 원하는 크기로 조정 가능 */
     /* margin: 30px auto 0; 상단 여백을 충분히 줘서 컨테이너와 분리 */
     opacity: 0.6;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
